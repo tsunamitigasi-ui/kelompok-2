@@ -5211,29 +5211,32 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar-nav>li.active>a {
-    color: #00a9d4;
+    color: white;
 }
 
 .navbar-nav>li>a:hover {
-    color: #0082a3;
+    color: #eccca2;
 }
 
 .header1 .nav-solid {
-    background-color: #99eaff;
+    background-color: #06cdff;
+}
+
+@media (min-width:767px) and ( max-width:990px) {
+    .header1 .nav-solid .container-fluid {
+        background-color: #06cdff;
+    }
 }
 
 @media (max-width:767px) {
     .header1 .nav-solid .container-fluid {
-        background-color: #99eaff;
+        background-color: #06cdff;
     }
 }
 
-.footer-bottom {
-    background-color: #eccca2;
-}
-
 .footer-bottom .container>p {
-    color: #c9f4fe;
+    color: #06cdff;
+    text-align: center;
 }
 
 @media (max-width:767px) {

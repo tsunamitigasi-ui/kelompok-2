@@ -78,6 +78,10 @@
         color: #111c16 !important;
     }
     
+    .c5 {
+        color: #06cdff !important;
+    }
+    
     .bg1 {
         background: #6abe52 !important;
     }
@@ -91,7 +95,7 @@
     }
     
     .bg4 {
-        background: #68e0ff
+        background: #06cdff
     }
     /* theme fonts */
     
@@ -420,6 +424,10 @@
     .nav-solid .navbar-brand {
         padding: 0 0 0 15px;
         margin-right: 30px;
+    }
+    
+    .navbar-header .navbar-brand .center {
+        margin-left: 30px;
     }
     
     @media(max-width: 1170px) {
@@ -1801,8 +1809,6 @@
     
     .team {
         position: relative;
-        z-index: 2;
-        padding-top: 120px;
         padding-bottom: 120px;
     }
     
@@ -2722,7 +2728,7 @@
     .footer-title {
         font-family: 'Titillium Web', sans-serif;
         font-weight: 700;
-        color: #fff;
+        color: #06cdff;
         font-size: 20px;
         line-height: 40px;
         text-transform: capitalize;
@@ -2740,15 +2746,15 @@
     
     .fooler-col ul li a {
         font-size: 16px;
-        color: #b6bdb9;
+        color: white;
         border-bottom: 1px solid transparent;
         text-transform: capitalize;
         font-weight: 600;
     }
     
     .fooler-col ul li a:hover {
-        color: #6abe52;
-        border-bottom: 1px solid #6abe52;
+        color: #06cdff;
+        border-bottom: 1px solid #06cdff;
     }
     
     .footer-contact h3 {
